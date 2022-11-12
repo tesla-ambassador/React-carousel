@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <motion.div ref={carousel} className='carousel border-gradient'>
+      <motion.div ref={carousel} className='carousel'>
         <motion.div 
         drag='x'
         whileTap={{cursor: "grabbing"}} 
